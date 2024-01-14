@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 25px;
+  font-family: monospace;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+  font-size: 22px;
+  display: inline-block;
+  padding: 20px 100px 5px 20px;
+}
+a {
+  text-decoration: none;
+  color: #dc2f2f;
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: #236969;
+}
+h1 {
+  color: #b21e4b;
+  font-size: 40px;
+  padding-top: 100px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+h2 {
+  color: #dc2f2f;
+  text-align: center;
+  font-size: 23px;
+}
+h2:hover {
+  color: blue;
+}
+header {
+  max-width: 1050px;
+  margin: 0px auto;
+}
+.text {
+  margin-top: 25px;
+  line-height: 1.5;
+}
+span {
+  color: #236969;
+  font-style: italic;
+  font-weight: 600;
+}
+span:hover {
+  color: blue;
+}
+.slogan {
+  width: 800px;
+  margin: 40px auto;
+  border: 2px solid #dc2f2f;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+  font-weight: 800;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #b21e4b;
+  transition: all 200ms ease-in;
+}
+.slogan:hover {
+  background: #b21e4b;
+  opacity: 0.9;
+  color: #fff;
+  cursor: pointer;
+}
+.slogan-span:hover {
+  color: #fff;
+}
+.nav-bar {
+  width: 100%;
+  height: 3.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: #feae9c;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.container {
+  max-width: 100%;
+  height: 540vh;
+  margin: 0px auto;
+  background: linear-gradient(
+    104.9deg,
+    rgb(255, 95, 162) 2.3%,
+    rgb(254, 201, 154) 92.7%
+  );
+}
+img {
+  width: 300px;
+  height: 250px;
+  display: block;
+}
+.photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cake {
+  border: 1px solid #b21e4b;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+#gallery {
+  margin: 60px auto;
+}
+#gallery h2 {
+  text-align: center;
+  color: #b21e4b;
+  font-size: 30px;
+  font-style: italic;
+  font-family: Helvetica, sans-serif;
+  margin: 60px auto;
+}
+footer p {
+  text-align: center;
+}
+footer {
+  margin: 30px;
+}
+.btn {
+  display: block;
+  margin: 80px auto;
+  padding: 15px 25px;
+  border: 1px solid #b21e4b;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  background: #b21e4b;
+  font-size: 23px;
+  font-style: italic;
+  font-weight: 800;
+  font-family: monospace;
+  transition: all 200ms ease-in;
+}
+.btn:hover {
+  background: #dc2f2f;
+  opacity: 0.9;
+  cursor: pointer;
+}
